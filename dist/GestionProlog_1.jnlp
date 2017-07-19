@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GestionProlog_1.jnlp">
+  <information>
+    <title>GestionProlog_1</title>
+    <vendor>NDJAMA</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GestionProlog_1.jar" size="29645" download="eager" />
+    <jar href="lib\jpl.jar" size="29453" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GestionProlog_1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="gestionprolog.GestionProlog"  name="GestionProlog_1" >
+    <fx:param name="-Djava.library.path" value=""./libpl.dll""/>
+  </jfx:javafx-desc>
+  <update check="always"/>
+</jnlp>
